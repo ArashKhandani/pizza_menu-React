@@ -146,9 +146,11 @@ function Footer() {
       {isOpen ? (
         <Order closeHours={closeHour} openHours={openHour} />
       ) : (
-        <p>
-          We're happy to wellcome between {openHour}:00 and {closeHour}:00{" "}
-        </p>
+        <div className="footer-closed">
+          <p>
+            We're happy to wellcome between {openHour}:00 and {closeHour}:00{" "}
+          </p>
+        </div>
       )}
     </footer>
   );

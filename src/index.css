@@ -155,6 +155,17 @@ body {
   font-size: 1.4rem;
 }
 
+.footer-closed {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: #edc84b;
+  padding: 1.4rem 3.2rem;
+  border-radius: 0.3rem;
+}
+
 .order {
   display: flex;
   flex-direction: column;
